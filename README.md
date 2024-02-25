@@ -37,9 +37,9 @@ Welcome to the Undying Totem project repository, an innovative solution designed
 ## Installation Steps
 
 - ``` git clone https://github.com/codlocker/DASSH-IPFS-App.git```
-- npm install
-- Ensure the following values are filled in .env file NEXT_PUBLIC_CLIENT_ID and NEXT_PUBLIC_API_KEY
-- npm run dev
+- ```npm install```
+- Ensure the following values are filled in .env file **NEXT_PUBLIC_CLIENT_ID** and **NEXT_PUBLIC_API_KEY**
+- ```npm run dev```
 
 ## Contributing
 
