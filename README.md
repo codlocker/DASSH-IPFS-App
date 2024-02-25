@@ -1,4 +1,4 @@
-# Undying Totem Project
+# Undying Totem
 
 ## Overview
 
@@ -31,10 +31,12 @@ Welcome to the Undying Totem project repository, an innovative solution designed
 2. **Data Retrieval:** Leveraging the P2P network, data can be efficiently retrieved from the nearest node without depending on a centralized server, enhancing speed and reliability.
 
 3. **Anomaly Detection:** Incorporating Bloom filters, the system efficiently screens for known malicious activities with minimal resource expenditure, reducing the reliance on costly external verification services.
+## Installation Steps
 
-## Getting Started
-
-To deploy and utilize the Undying Totem solution in your infrastructure, please refer to our [Installation Guide](/installation) and [User Manual](/user-manual). These documents provide step-by-step instructions on setting up and integrating Undying Totem with your existing systems.
+- ``` git clone https://github.com/codlocker/DASSH-IPFS-App.git```
+- npm install
+- Ensure the following values are filled in .env file NEXT_PUBLIC_CLIENT_ID and NEXT_PUBLIC_API_KEY
+- npm run dev
 
 ## Contributing
 
