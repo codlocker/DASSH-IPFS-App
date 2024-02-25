@@ -1,6 +1,6 @@
 # Undying Totem
 
-[Youtube Video] (https://youtu.be/d98fo5zfzLM)
+[Youtube Video](https://youtu.be/d98fo5zfzLM)
 
 ## Overview
 
