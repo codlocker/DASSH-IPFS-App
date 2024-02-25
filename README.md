@@ -46,7 +46,7 @@ Undying Totem is released under the MIT License. See the [LICENSE](/LICENSE) fil
 
 ## Support
 
-If you encounter any issues or have questions, please file an issue on GitHub or contact our support team at support@undyingtotem.com.
+If you encounter any issues or have questions, please file an issue on GitHub.
 
 ---
 
