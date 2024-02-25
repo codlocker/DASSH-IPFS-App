@@ -50,7 +50,7 @@ We welcome contributions from the community! If you're interested in improving U
 
 ## License
 
-Undying Totem is released under the MIT License. See the [LICENSE](/LICENSE) file for more details.
+Undying Totem is released under the Apache 2.0 License. See the [LICENSE](/LICENSE.md) file for more details.
 
 ## Support
 
