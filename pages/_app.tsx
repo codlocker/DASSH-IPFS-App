@@ -1,6 +1,7 @@
 import type { AppProps } from "next/app";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import "../styles/globals.css";
+import Navbar from "../components/navbar";
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
@@ -9,6 +10,8 @@ const activeChain = "ethereum";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
+    <>
+    <Navbar />
     <ThirdwebProvider
       clientId={process.env.NEXT_PUBLIC_CLIENT_ID}
       activeChain={activeChain}
@@ -16,6 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     >
       <Component {...pageProps} />
     </ThirdwebProvider>
+    </>
   );
 }
 
