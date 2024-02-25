@@ -47,7 +47,7 @@ const Home: NextPage = () => {
         <p className={styles.uploadUrl}>Upload URL: {uploadFileUri}</p>
 
 
-        { uploadFileUri && <img src={uploadFileUri} alt="Image"></img> }
+        { uploadFileUri && <img src={uploadFileUri} alt="Image" className={styles.imagePostView}></img> }
       </div>
     </main>
   );
