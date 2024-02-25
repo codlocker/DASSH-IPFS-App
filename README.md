@@ -44,10 +44,6 @@ Welcome to the Undying Totem project repository, an innovative solution designed
 - Ensure the following values are filled in .env file **NEXT_PUBLIC_CLIENT_ID** and **NEXT_PUBLIC_API_KEY**
 - ```npm run dev```
 
-## Contributing
-
-We welcome contributions from the community! If you're interested in improving Undying Totem or adding new features, please check out our [Contribution Guidelines](/contributing) for more information on submitting pull requests.
-
 ## License
 
 Undying Totem is released under the Apache 2.0 License. See the [LICENSE](/LICENSE.md) file for more details.
