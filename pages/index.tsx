@@ -55,7 +55,9 @@ const Home: NextPage = () => {
         </button>
         {isUploading && <div className={styles.spinner}></div>}
         <p className={styles.uploadUrl}>Upload URL: {uploadFileUri}</p>
-        {uploadFileUri && <img src={uploadFileUri} alt="Image" />}
+
+
+        { uploadFileUri && <img src={uploadFileUri} alt="Image" className={styles.imagePostView}></img> }
       </div>
     </main>
   );
