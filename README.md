@@ -38,6 +38,8 @@ To deploy and utilize the Undying Totem solution in your infrastructure, please 
 
 ## Contributing
 
+https://youtu.be/obk90E7w71M
+
 We welcome contributions from the community! If you're interested in improving Undying Totem or adding new features, please check out our [Contribution Guidelines](/contributing) for more information on submitting pull requests.
 
 ## License
