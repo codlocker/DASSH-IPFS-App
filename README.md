@@ -1,8 +1,11 @@
 # Undying Totem
 
+[Youtube Video] (https://youtu.be/d98fo5zfzLM)
+
 ## Overview
 
 Welcome to the Undying Totem project repository, an innovative solution designed to enhance the resilience and security of critical infrastructures against sophisticated cyberattacks, including those powered by AI. Leveraging advanced Content Addressable Storage (CAS) systems and the InterPlanetary File System (IPFS), Undying Totem ensures that critical data remains secure, accessible, and reliably distributed, even in the face of dire cyber threats.
+
 ## Architecture Diagram
 
 ![image](https://github.com/codlocker/DASSH-IPFS-App/assets/12949012/5421c339-3ced-4409-b487-5d501e1f28d6)
@@ -42,8 +45,6 @@ Welcome to the Undying Totem project repository, an innovative solution designed
 - ```npm run dev```
 
 ## Contributing
-
-https://youtu.be/mEyTSy54aEM
 
 We welcome contributions from the community! If you're interested in improving Undying Totem or adding new features, please check out our [Contribution Guidelines](/contributing) for more information on submitting pull requests.
 
