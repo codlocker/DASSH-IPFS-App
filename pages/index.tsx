@@ -28,28 +28,23 @@ const Home: NextPage = () => {
     }
   }
 
-  const handleFileChange = (event: any) => {
-    const selectedFile = event.target.files[0];
-    setFile(selectedFile);
-  };
-
-  const handleDrop = (files: FileList) => {
-    setFile(files[0]);
+  const handleFileChange = (file: any) => {
+    setFile(file);
   };
 
   return (
     <main className={styles.main}>
       <div className={styles.container}>
         <h1 className={styles.title}>File Upload</h1>
-        <div className={styles.dragDropContainer}>
+        <div className={styles.dragDropContainer1}>
           <FileUploader
-            handleChange={handleDrop}
+            handleChange={handleFileChange}
             name="file"
             types={["JPG", "PNG", "GIF"]}
             className={styles.dragDrop}
           />
         </div>
-        <input type="file" onChange={handleFileChange} className={styles.fileUpload} />
+        <br />
         <button className={styles.uploadBtn} onClick={uploadToIpfs} disabled={isUploading}>
           {isUploading ? 'Uploading...' : 'Upload'}
         </button>
