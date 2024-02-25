@@ -44,6 +44,7 @@ const Home: NextPage = () => {
             className={styles.dragDrop}
           />
         </div>
+        <br />
         <button className={styles.uploadBtn} onClick={uploadToIpfs} disabled={isUploading}>
           {isUploading ? 'Uploading...' : 'Upload'}
         </button>
