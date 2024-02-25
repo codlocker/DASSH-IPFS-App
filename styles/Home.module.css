@@ -54,6 +54,25 @@
   border-radius: 5px;
 }
 
+
+
+.dragDropContainer1 {
+ 
+  background-color: lightblue;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 40px;
+  text-align: center;
+  font-size: 4.0rem;
+  color: #555;
+}
+
+.dragDropContainer1:hover {
+  background-color: #f9f9f9;
+}
+
+
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
