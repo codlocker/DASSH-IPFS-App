@@ -4,6 +4,14 @@
 
 Welcome to the Undying Totem project repository, an innovative solution designed to enhance the resilience and security of critical infrastructures against sophisticated cyberattacks, including those powered by AI. Leveraging advanced Content Addressable Storage (CAS) systems and the InterPlanetary File System (IPFS), Undying Totem ensures that critical data remains secure, accessible, and reliably distributed, even in the face of dire cyber threats.
 
+## Scenarios of Application
+
+- **Airport Cybersecurity:** In the event of a cyberattack that disrupts airport operations, Undying Totem ensures that passenger information and flight details remain accessible, securing both passenger management and airport security operations.
+
+- **Healthcare Data Protection:** Should hospitals lose access to patient data due to a cyberattack, Undying Totem enables the quick retrieval of medical records and diagnostic results, minimizing impact on patient care.
+
+- **Infrastructure Resilience:** By applying CAS and IPFS, Undying Totem fortifies the resilience and security of interconnected critical infrastructure, ensuring smooth operation even under enhanced tension or direct attacks.
+
 ## Key Features
 
 - **Content-Addressed Storage (CAS):** At the core of Undying Totem, CAS provides a unique fingerprint for each piece of data based on its content. This method ensures that any alteration to the data changes its fingerprint, allowing for immediate detection of unauthorized modifications.
@@ -15,14 +23,6 @@ Welcome to the Undying Totem project repository, an innovative solution designed
 - **Fault Tolerance and Reliability:** Data is replicated across multiple nodes in the network, providing redundancy and ensuring data availability during network problems or cyberattacks.
 
 - **Efficient Resource Utilization:** By incorporating Bloom filters, Undying Totem significantly reduces the necessity for external queries to identify malicious activities, thereby saving on resources and enhancing response times without compromising on security.
-
-## Scenarios of Application
-
-- **Airport Cybersecurity:** In the event of a cyberattack that disrupts airport operations, Undying Totem ensures that passenger information and flight details remain accessible, securing both passenger management and airport security operations.
-
-- **Healthcare Data Protection:** Should hospitals lose access to patient data due to a cyberattack, Undying Totem enables the quick retrieval of medical records and diagnostic results, minimizing impact on patient care.
-
-- **Infrastructure Resilience:** By applying CAS and IPFS, Undying Totem fortifies the resilience and security of interconnected critical infrastructure, ensuring smooth operation even under enhanced tension or direct attacks.
 
 ## How It Works
 
