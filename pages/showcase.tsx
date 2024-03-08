@@ -11,11 +11,7 @@ const Showcase = () => {
   return (
     <div className="image-gallery">
       {imageUrls.map((imageUrl, index) => (
-        <Image
-          key={index}
-          src={imageUrl}
-          alt={`Image ${index + 1}`}
-         />
+        <img key={index} src={imageUrl} alt={`Image ${index + 1}`} />
       ))}
 
       <style jsx>{`
