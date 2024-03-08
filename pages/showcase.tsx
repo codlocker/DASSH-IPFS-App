@@ -1,9 +1,9 @@
 const Showcase = () => {
     // Sample image URLs
   const imageUrls = [
-    'https://477ec3fc51413cad7ffa7ddd75a3b1e4.ipfscdn.io/ipfs/bafybeif6t5kbtd3yocque6q4bl7rvgxdsxrkitfm6q5d25g27uiv5eiaa4/',
-    'https://477ec3fc51413cad7ffa7ddd75a3b1e4.ipfscdn.io/ipfs/bafybeigihpgq4mfe3lwb6sfol3sznirv3kqlkp2a74kum66hjngtwtsfja/',
-    'https://477ec3fc51413cad7ffa7ddd75a3b1e4.ipfscdn.io/ipfs/bafybeif6g4inajyxmtjimcvorpmmrxkezyyowhugluzq2ytwa6iundoozi/'
+    'https://f595e216533050f5c2571992a7e9bc88.ipfscdn.io/ipfs/bafybeib4besqetdo3z5sfxjlltnzd2ze3o22sorayddl54va4755jgz3vu/',
+    'https://f595e216533050f5c2571992a7e9bc88.ipfscdn.io/ipfs/bafybeicl2fnizu72xe7p3tnb7xvl6sta7i7nizqdivps244rfb4ydnjbvu/',
+    'https://f595e216533050f5c2571992a7e9bc88.ipfscdn.io/ipfs/bafybeieav4iw3o2njw6bi5eifdti2iqb5ghsqyl2tjfahydun3orro2fra/'
   ];
 
   return (
